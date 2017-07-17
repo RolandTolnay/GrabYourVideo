@@ -3,9 +3,8 @@ import { View, ListView, Keyboard } from 'react-native';
 import { connect } from 'react-redux';
 
 import { searchForVideos } from '../../../actions';
-import { TextField, CardSection, Button, Spinner } from '../../common';
+import { TextField, CardSection, Button, Spinner, TextBoldedFinish } from '../../common';
 import VideoItem from './VideoItem';
-import TextBoldedFinish from './TextBoldedFinish';
 import NowPlayingView from './NowPlayingView';
 import { styles } from './styles';
 
@@ -123,7 +122,7 @@ const mapStateToProps = state => {
 
 VideoList.propTypes = {
   videos: PropTypes.array.isRequired,
-  searchForVideos: PropTypes.function.isRequired,
+  searchForVideos: PropTypes.func.isRequired,
   isLoading: PropTypes.bool.isRequired,
   searchString: PropTypes.string.isRequired,
   nowPlayingTitle: PropTypes.string,

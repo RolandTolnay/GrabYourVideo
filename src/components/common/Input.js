@@ -47,7 +47,7 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
 Input.propTypes = {
   label: PropTypes.string,
   value: PropTypes.string.isRequired,
-  onChangeText: PropTypes.function.isRequired,
+  onChangeText: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   secureTextEntry: PropTypes.bool,
 };

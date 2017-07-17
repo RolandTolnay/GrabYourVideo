@@ -74,7 +74,7 @@ class VideoItem extends Component {
 }
 
 VideoItem.propTypes = {
-  playVideo: PropTypes.function.isRequired,
+  playVideo: PropTypes.func.isRequired,
   video: PropTypes.object.isRequired,
 };
 

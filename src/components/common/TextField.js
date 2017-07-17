@@ -40,10 +40,10 @@ const TextField = (props) => {
 
 TextField.propTypes = {
   value: PropTypes.string.isRequired,
-  onChangeText: PropTypes.function.isRequired,
+  onChangeText: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   secureTextEntry: PropTypes.bool,
-  onSubmitEditing: PropTypes.function,
+  onSubmitEditing: PropTypes.func,
   containerStyle: PropTypes.object,
   inputStyle: PropTypes.object,
 };

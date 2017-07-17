@@ -20,11 +20,14 @@ const CardSection = (props) => (
 );
 
 CardSection.propTypes = {
-  children: React.PropTypes.oneOfType([
-    React.PropTypes.object,
-    React.PropTypes.array,
+  children: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.array,
   ]).isRequired,
-  style: PropTypes.object,
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.array,
+  ]),
 };
 
 CardSection.defaultProps = {

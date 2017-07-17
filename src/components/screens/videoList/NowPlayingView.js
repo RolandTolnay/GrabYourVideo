@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
-import TextBoldedFinish from './TextBoldedFinish';
-import { CardSection } from '../../common';
+import { CardSection, TextBoldedFinish } from '../../common';
 
 const styles = {
   viewStyle: {

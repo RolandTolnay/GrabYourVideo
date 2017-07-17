@@ -36,7 +36,7 @@ const Button = (props) => {
 };
 
 Button.propTypes = {
-  onPress: PropTypes.function.isRequired,
+  onPress: PropTypes.func.isRequired,
   children: PropTypes.string.isRequired,
   style: PropTypes.object,
 };

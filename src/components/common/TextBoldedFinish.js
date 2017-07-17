@@ -46,4 +46,4 @@ TextBoldedFinish.defaultProps = {
   color: '#000',
 };
 
-export default TextBoldedFinish;
+export { TextBoldedFinish };

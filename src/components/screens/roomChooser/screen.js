@@ -75,8 +75,8 @@ const mapStateToProps = state => {
 };
 
 RoomChooser.propTypes = {
-  roomNameChanged: PropTypes.function.isRequired,
-  enterRoom: PropTypes.function.isRequired,
+  roomNameChanged: PropTypes.func.isRequired,
+  enterRoom: PropTypes.func.isRequired,
   roomName: PropTypes.string.isRequired,
   isLoading: PropTypes.bool.isRequired,
 };
